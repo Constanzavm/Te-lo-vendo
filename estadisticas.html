@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DataTable Responsive</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+  
+
+<script type="text/javascript" src="/js/funciones.js"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <!-- header -->
+        </header>
+        <!-- <a class="navbar-brand" href="#">Te lo vendo</a> -->
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/quienessomos.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section>
+                <article class="bg-white">
+                <table id="miTabla" class="display responsive nowrap tablis">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>ID</th>
+                            <th>Sucursal</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Producto01</td>
+                            <td>001</td>
+                            <td>Santiago</td>
+                            <td>50</td>
+                            <td>$1.990</td>
+                        </tr>
+                        <tr>
+                            <td>Producto02</td>
+                            <td>002</td>
+                            <td>Santiago</td>
+                            <td>75</td>
+                            <td>$2.000</td>
+                        </tr>
+                        <tr>
+                            <td>Producto03</td>
+                            <td>003</td>
+                            <td>Santiago</td>
+                            <td>20</td>
+                            <td>$50.000</td>
+                        </tr>
+                        <tr>
+                            <td>Producto04</td>
+                            <td>004</td>
+                            <td>Santiago</td>
+                            <td>25</td>
+                            <td>$40.000</td>
+                        </tr>
+                        <tr>
+                            <td>Producto05</td>
+                            <td>005</td>
+                            <td>Santiago</td>
+                            <td>500</td>
+                            <td>$200</td>
+                        </tr>
+                        <tr>
+                            <td>Producto06</td>
+                            <td>006</td>
+                            <td>Santiago</td>
+                            <td>250</td>
+                            <td>$2.500</td>
+                        </tr>
+                        <tr>
+                            <td>Producto07</td>
+                            <td>007</td>
+                            <td>Santiago</td>
+                            <td>120</td>
+                            <td>$3.500</td>
+                        </tr>
+                        <tr>
+                            <td>Producto08</td>
+                            <td>008</td>
+                            <td>Santiago</td>
+                            <td>75</td>
+                            <td>$15.250</td>
+                        </tr>
+                        <tr>
+                            <td>Producto09</td>
+                            <td>009</td>
+                            <td>Santiago</td>
+                            <td>50</td>
+                            <td>$20.500</td>
+                        </tr>
+                        <tr>
+                            <td>Producto10</td>
+                            <td>010</td>
+                            <td>Santiago</td>
+                            <td>250</td>
+                            <td>$4.500</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+
+
+            </article>
+            </section>
+        </main>
+        <footer class="row py-3 my-3 border-top">
+            <div class="col">
+                <img class="img-fluid"
+                    style="max-width: 50px; display: inline-block;"
+                    src="https://cdn.discordapp.com/attachments/749453565571104791/969660754338906122/hellochiquito.png">
+                <p style="display: inline-block;">©</p>
+            </div>
+            <div class="col">
+            </div>
+            <div class="col">
+                <h5>Les hello World</h5>
+                <br>
+                <hr>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <p>Amanda Díaz Rojas</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <p>Constanza Carolina Vivar muñoz</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <p>Mauricio Seguel Carreño</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <p>Nicolay López Imbarack</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+  
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+
+
+</body>
+</html>
